@@ -1,0 +1,1 @@
+print("operator",(a==b) or (a>b))
