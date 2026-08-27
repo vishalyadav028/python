@@ -220,8 +220,16 @@
 # values={9,9.19 }
 # print(values)
 
-values={
-    ("float",9.0),
-    ("int",9)
-}
-print(values)
+# values={
+#     ("float",9.0),
+#     ("int",9)
+# }
+
+num =[1,2,8,4,6,7,9,49]
+idx =0
+x =49
+for i in num:
+    if(i == 49):
+        print("index no: ",idx)
+        break
+    idx +=1

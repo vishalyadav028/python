@@ -1,1 +1,2 @@
-print("operator",(a==b) or (a>b))
+for i in range(ord('a'), ord('z'),+1,1):
+#     print(chr(i))
