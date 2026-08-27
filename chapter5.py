@@ -131,7 +131,3 @@
 # while i<len(num):
 #     i+=1
 
-def  sum(a,b):
-    s=a+b
-    return 
-print(sun(2,3))
