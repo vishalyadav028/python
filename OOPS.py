@@ -6,24 +6,39 @@
 # m1.addition(2,)      
 
 
-class Dog:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Dog:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def sound(self):
-        print(f"{self.name} sound is - woof")
+#     def sound(self):
+#         print(f"{self.name} sound is - woof")
 
-class Cat:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+# class Cat:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
 
-    def sound(self):
-        print(f"{self.name} sound is - meow")
+#     def sound(self):
+#         print(f"{self.name} sound is - meow")
 
-d1 = Dog(name="tom", age=3)
-c1 = Cat(name="jerry", age=1)
+# d1 = Dog(name="tom", age=3)
+# c1 = Cat(name="jerry", age=1)
 
-d1.sound()
-c1.sound()
+# d1.sound()
+# c1.sound()
+class Vehicle:
+    color = "black"
+    petroldesile = "petrol"
+    mileage = "10"
+
+
+car = Vehicle()
+print(car.color)
+
+bike = Vehicle()
+print(bike.color)
+
+aeroplane = Vehicle()
+print(aeroplane.mileage)
+print(aeroplane.color)

@@ -168,3 +168,8 @@ for i in food:
 college=("nit-delhi","abes","bbau","iit-d")    
 for j in college:
     print("college visited",j)
+
+
+    name = input("Enter your name: ")
+
+print("Hello", name)

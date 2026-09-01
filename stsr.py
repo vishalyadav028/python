@@ -68,14 +68,110 @@
 #Question.9
      #grades of student
 
-marks = int(input("enter the marks:"))
-if(marks >= 90):
-    print("A")
-elif(marks >= 80 and marks < 90):
-    print("B") 
-elif(marks >= 70 and marks < 80):
-    print("C")
-elif(marks >= 60 and marks <70):
-    print("D")
-else:
-    print("marks is faild") 
+# marks = int(input("enter the marks:"))
+# if(marks >= 90):
+#     print("A")
+# elif(marks >= 80 and marks < 90):
+#     print("B") 
+# elif(marks >= 70 and marks < 80):
+#     print("C")
+# elif(marks >= 60 and marks <70):
+#     print("D")
+# else:
+#     print("marks is faild") 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+# import time
+# count =int(input("Enter the counter num: "))
+# print("\n countdown starts now: ")
+
+# for i in range(1,0,-1):
+#     print(i)
+#     time.sleep(1)
+#     print("\n whohoooo! happy new year")
+
+
+
+
+# EXPENSE TRACKER PROJECT
+expensesList=[] #list of expenses in form of dictionary
+print("Welcome to Expense Tracker: ")
+while True:
+    print("___________MENU____________")
+    print("1.Add Expenses")
+    print("2.View all expenses")
+    print("3.View total khrcha")
+    print("2.exit")
+    choice=int(input("please Enter your choice:"))
+
+    # add expense
+    if(choice == 1):
+        date =input("kis date par khrcha kiya tha: ")
+        category=input("kis type ka khrcha(food,travel,market,books)")
+        decription=input("aur detail date:")
+        amount =float(input("enter the amount:"))
+
+        expense={
+            "date":date,
+            "category":category,
+            "decription":decription,
+            "amount":amount
+        }
+
+        expensesList.append(expense)
+        print("\n done bro, expends is added successfull")
+
+    # VIEW ALL EXPENSEN
+    if(choice ==2):
+        if(len(expensesList)==0):
+            print("no expenses added.jao pehle khrcha karo")
+        else:
+            print("=====ye apka sara expense=====")
+            count=1
+            for eachkhrcha in expensesList:
+
+                print(f"khrcha no{count}->{eachkhrcha['date']},{eachkhrcha['decription']},{eachkhrcha['amount']}")
+                count=count+1
+
+# 3.View total spending.
+    elif(choice ==3):
+        total=0
+        for eachkrcha in expensesList:
+            total =total + eachkrcha["amount"]
+            print("\n total khrcha =",total)
+# EXIT
+    elif(choice ==4):
+        print("thank you Mere System pe aneke liye")
+        break
+    else:
+        print("INVALID CHOICE ,TRY AGAIN")
+
+            
+
+
+
+
+
+
+                
+
+
+
