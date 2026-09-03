@@ -31,18 +31,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
 # STAR OF OOPS
-
-
 # class Vehicle:
 #     color = "black"
 #     petroldesile = "petrol"
@@ -62,14 +51,10 @@
 
 
 
-
-
 # class car:
 #     brand="vishal"
 # obj1= car()
 # print("brand name is",obj1.brand)
-
-
 
 
 
@@ -87,9 +72,6 @@
 # laptop2 =laptop()
 # laptop2.brand="lenovo"
 # print("laptop brand",laptop2.brand)
-
-
-
 
 
 
@@ -122,25 +104,60 @@
 
 # studen1=student()
 # print(studen1.schoolname)  
-
 # studen2=student()
 
 
 
 
+# class student:
+#     def __init__(self,name,marks):
+#         self.name =name
+#         self.marks =marks
+#         print("adding new student")
+
+# s1 =student("vishal",35)
+# print(s1.name, s1.marks)
+
+# s2 =student("ritik",40)
+# print(s2.name,s2.marks)
 
 
 
 
 
-class student:
-    def __init__(self,name,marks):
-        self.name =name
-        self.marks =marks
-        print("adding new student")
+# class vehicle:
+#     color="black"
+#     petrol0diesel="petrol pump"
+#     mileage="10"
 
-s1 =student("vishal",35)
-print(s1.name, s1.marks)
+# car1= vehicle()
+# car1.color="red"
+# print(car1.color) 
 
-s2 =student("ritik",40)
-print(s2.name,s2.marks)
+# bike= vehicle()
+# bike.color="yellow"
+# print(bike.petrol0diesel)
+# print(bike.color)
+
+# aeroplane= vehicle()
+# print(aeroplane.mileage)
+# print(aeroplane.color)
+
+
+
+# class Student:
+#     def __init__(self, name, list0):
+#         self.name = name
+#         self.list0 = list0
+
+#     def average(self):
+#         sum = 0
+
+#         for eachvalue in self.list0:
+#             sum = sum + eachvalue
+
+#         average = sum / 3
+#         print("Average is:", average)
+
+# student1 = Student("Vishal", [90, 98, 99])
+# student1.average()
