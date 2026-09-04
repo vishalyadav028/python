@@ -127,3 +127,167 @@
 
 
 
+# Question 1.1 
+# Numbers a = 20, b = 5 lekar addition, subtraction, multiplication, division aur modulus print karo.
+# a= 20
+# b= 5
+# print("addition",a+b)
+# print("subtraction",a-b)
+# print("multiplication",a*b)
+# print("division",a/b)
+# print("modulus",a%b)
+
+
+
+# Question 1.2 
+# a = 15, b = 4 lekar all arithmetic operators ka result nikalo.
+# a= 15
+# b= 4
+# print("addition",a+b)
+# print("subtraction",a-b)
+# print("multiplication",a*b)
+# print("division",a/b)
+# print("modulus",a%b)
+
+
+
+# Question 1.3 
+# a = 10, b = 20 par relational operators (>, <, >=, <=, ==, !=) lagao.
+# a= 10
+# b= 20
+# print("this is grater than: ",a>b)
+# print("this is less than: ",a<b)
+# print("this is grater than equal equal: ",a>=b)
+# print("this is less than equal equal: ",a<=b)
+# print("this is equal equal: ",a==b)
+# print("this is not equal: ",a!=b)
+
+
+
+
+# Question 1.4 
+# age = 18 aur hasID = True lekar logical AND (and / &&) use karke check karo ki person allowed hai ya nahi.
+# age =1
+# ID =True
+# if(age >= 18 and ID):
+#     print("person is allowed")
+# else:
+#     print("person is not allowed")  
+
+
+
+#Question 1.5 
+#Ek number lo aur check karo ki woh even hai ya odd, modulus operator % se.
+# a =18
+# if(a %2==0):
+#     print("this is even number")
+# else:
+#     print("this is odd number")    
+
+
+
+# Question 2.1 
+# Apna name, age aur city variables mein store karke print karo.
+# name ="vishal"
+# age =18
+# city ="Raipur"
+# print("my name is",name,"and i am",age,"year old my fav",city,"")
+
+
+
+
+# Question 2.2
+# Do variables a = 10, b = 20 lekar unka sum print karo.
+# a= 10
+# b= 20
+# print("total sum",a+b)
+
+
+
+# Question 2.3 
+# length= 10, breadth= 5 lekar rectangle ka area nikalo.(Formula: Area = length * breadth)
+# length= 10
+# breath= 5
+# area =length * breath
+# print("rectangle of area:",area)
+
+
+
+
+# Question 2.4
+# price = 500, quantity = 3 lekar total bill calculate karo.
+# price= 500
+# quantity= 3
+# print("otal bill calculate",price * quantity)
+
+
+
+# Question 2.5 
+# Ek variable ki value ko change/update karke before aur after value print karo.
+# score= 25
+# print("values of before:",score)
+# score= 100
+# print("values of after:",score)
+
+
+
+# Question 3.1
+# Ek int, float, str aur bool variable banao aur unka type print karo
+# myint= 25
+# myfloat= 25.09
+# mystr= "vishal"
+# mybool= True
+# print("integer number:",type(myint))
+# print("my float number:",type(myfloat))
+# print("my mystr:",type(mystr))
+# print("my bool",type(mybool))
+
+
+
+
+# Question 3.2 
+# User se age input lo aur uska type check karo.
+# age =int(input("entr the age: "))
+# print("i am ",age," year old")
+# print("eska type hai yah: ",type(age))
+
+
+
+# Question 3.3 
+# num = "100" ko integer mein convert karke 50 add karo.
+# num= "100"
+# convert=int(num)
+# print("convert",num)
+# print(convert+50)
+
+
+
+# Question 3.4 
+# price = 99.5 ko integer mein convert karke print karo.
+# price= 99.5
+# convert= int(price)
+# print("converted values:",convert)
+
+
+
+
+# Question 3.5
+# Ek list, tuple, dictionary aur set banao aur sabka type() print karo.
+list1=["mungdal","chana","aalu"]
+print("this is list",list1,"yah eska types hai",type(list1))
+
+
+tuple1=("apple","banana","papaye")
+print("this is tuple",tuple1,"yah eska types hai",type(tuple1))
+
+
+dictionary={
+    "name":"vishal",
+    "age":18,
+    "village":"bihar"
+}
+print("this is dictionary",dictionary,"yah eska types hai",type(dictionary))
+
+
+set1={"rotti","chaval","tea"}
+print("this is set",set1,"yah types",type(set1))
