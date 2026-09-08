@@ -173,6 +173,10 @@
 
 
 
-a =int(input("Enter the first number:"))
-b =int(input("Enter the second number:"))
-print("your result:",a>b)
+# a =int(input("Enter the first number:"))
+# b =int(input("Enter the second number:"))
+# print("your result:",a>b)
+
+
+# a= 2j
+# print(type(a))

@@ -195,5 +195,90 @@
 # else:
 #     print("Grade: Fail")
 
-for i in range(1, 11):
-    print(i, end=" ")
+
+
+
+
+# age= 18
+# if(age >= 18):
+#     if(age >=80):
+#         print("can you not drive")
+#     else:
+#         print("can you drive")
+# else:
+#     print("can you drive")   
+
+
+
+# age='18'
+# print(float(age))
+# print(type(age))
+
+
+# name= input("enter the $: ")
+# a= name.count("$")
+# print("total count",a)
+
+
+# name= input("enter the name: ")
+# print(len(name))
+
+
+
+
+# i=1
+# while(i<=10):
+#     print(i)
+#     i +=1
+
+
+
+
+
+# j=10
+# while(j>=1):
+#     print(j)
+#     j -= 1
+
+
+
+
+
+# num = 1
+# while num <= 50:
+#     if num % 2 == 0:
+#         print(num)
+#     num = num + 1        
+
+
+
+# n= int(input("enter a number: "))
+# sum= 0
+# while n>=1:
+#     sum= sum+n
+#     n= n-1
+#     print("sum",sum)
+#     print("n=",n)
+
+
+
+
+
+
+# n=1
+# while n<=4:
+#     print("*"*n)
+#     n= n+1
+
+
+# foodlist=["cake","mango","pizaa"]
+# for item in foodlist:
+#     print(item)
+
+
+# for i in range(1,11,1):
+#     print(i)
+
+for i  in range(10,0,-1):
+    print(i)
+  
