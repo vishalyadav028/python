@@ -1,4 +1,4 @@
-def add(a, b):
-    return a + b
-
-print(add(5, 3))
+for i in range(5):
+    for j in range(5):
+        print("*", end=" ")
+    print()
