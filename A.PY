@@ -9,4 +9,7 @@ elif marks >= 60:
 elif marks >= 40:
     print("Grade D")
 else:
-    print("Fail")
+    print("Fail")+++
+
+
+
