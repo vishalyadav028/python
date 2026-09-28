@@ -222,4 +222,111 @@
 # print(type(convert))
 
 
+# food1=input("enter food1: ")
+# food2=input("enter food2: ")
+# food3=input("enter food3: ")
+
+# foodlist=[]
+# foodlist.append(food1)
+# foodlist.append(food2)
+# foodlist.append(food3)
+
+# print(foodlist)
+# print(len(foodlist))
+
+
+
+
+# emptytuple=()
+# print(type(emptytuple))
+# print(emptytuple)
+
+# singletuple=(1,"hello my dear friends")
+# print(type(singletuple))
+# print(singletuple)
+
+
+
+
+# studenttuple=("vishal","ritik","sankar","akash","aditya","vishal")
+# print(studenttuple[2])
+# print(studenttuple[1:3])
+# # emptytuple=()
+# # singletuple=(1,)
+# # print(type(emptytuple))
+# # print(type(singletuple))
+# print(studenttuple.index("ritik"))
+# print(studenttuple.count("vishal"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# student={
+#     "name":"vishal yadav",
+#     "city":"gopalganj",
+#     "age": 25,
+#     "rollnumber":23,
+#     "name":"shradha",
+#     "name":"khushi"
+# }
+# print(type(student))
+# print(student)
+# print(student["city"])
+# student["city"]="hyderabad"
+# print(student)
+# student["favsubject"]="maths"
+# print(student)
+
+
+
+# marks={}
+# print(type(marks))
+
+
+
+
+# marks={}
+# marks["maths"]=99
+# marks["chemistry"]=99
+# marks["computer science"]=91
+# print(marks)
+
+
+
+# food={"panner","chole bathure","sandwitch","golgape","panner"}
+# print(food)
+# print(type(food))
+# food.add("kunfiya")
+# emptyset=set()
+# print(food)
+
+# print(type(emptyset))
+
+
+
+
+# programlist=["python","java","dsa","c++","c"]
+# print(type(programlist))
+# print(programlist[1])
+
+# programset=("python","java","dsa","c++","c")
+# print(type(programset))
+# print(programset)
+# print("divya know these many language",len(programset))
+# print(programset[1])
+
+
 
